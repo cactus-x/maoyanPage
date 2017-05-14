@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/private.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="head">
+        <a href="index.html"><i class="login"></i></a>
+    </div>
+</div>
+<div class="container">
+    <form name="newform" id="accform">
+        <div class="phone">
+            <label for="phone-text">手机号</label>
+            <input type="text" id="phone-text" class="outline-none text-w" name="name"/>
+            <span class="color-999" id="phone-text_lable" style="font-size:12px">注册成功后，全美团通用</span>
+        </div>
+        <div class="note">
+            <input class="note-text border-none outline-none color-999" type="button" value="免费获取短信动态码"  id="phone_code"/>
+            <span id="phone_code_time"></span>
+            <span id="phone_code_test"></span>
+        </div>
+        <div class="phone-cont">
+            <label for="phone-cont-text">短信动态码</label>
+            <input type="text" id="phone-cont-text" class="text-w outline-none"/>
+            <label id="phone-cont-text_lable"></label>
+        </div>
+        <div class="password">
+            <label for="password-text">创建密码</label>
+            <input type="password" id="password-text" class="text-w outline-none" name="password"/>
+            <label id="password-text_lable"></label>
+        </div>
+        <div class="password-diff">
+            <div class="float-left color-fff password-diff01" id="pwd_l">弱</div>
+            <div class="float-left color-fff password-diff01" id="pwd_c">中</div>
+            <div class="float-left color-fff password-diff01" id="pwd_r">强</div>
+        </div>
+        <div class="passwordok clear-both">
+            <label for="passwordok-text">确认密码</label>
+            <input type="password" id="passwordok-text" class="text-w outline-none"/>
+            <label id="passwordok-text_lable"></label>
+        </div>
+        <div class="reg">
+            <input class="reg-text background-red outline-none border-none color-fff" type="submit" value="同意以下协议并注册" id="regbut"/>
+        </div>
+    </form>
+    <a href="" class="tre color-red disply-inlineblock text-deco-none">《美团网用户协议》</a>
+</div>
+<div class="footer">
+    <div class="foot">
+        <p class="color-999">©meituan.com 京ICP证070791号 京公网安备11010502025545号</p>
+    </div>
+</div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.easyui.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

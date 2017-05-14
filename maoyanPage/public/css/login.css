@@ -1,0 +1,96 @@
+.header{
+    width: 980px;
+    height: 43px;
+    margin:  0 auto;
+    overflow: hidden;
+}
+.header>a>i{
+    width: 229px;
+    height: 43px;
+    background: url("../img/logn.png") no-repeat -114px -678px;
+    position: absolute;
+}
+.container{
+    width: 980px;
+    margin:  0 auto;
+    overflow: hidden;
+}
+.phone{
+    width: 10px;
+    height: 13px;
+    background: url("../img/logn.png") no-repeat -1268px -509px;
+    position: absolute;
+    top:6px;
+
+}
+.content-r{
+    width: 272px;
+}
+.name{
+    border: 1px solid #999;
+    width: 272px;
+}
+.name>i.name-ico{
+    width: 18px;
+    height: 18px;
+    background: url("../img/logn.png") no-repeat -1251px -617px;
+    position: absolute;
+    top:10px;
+    left: 5px;
+}
+.name-text{
+    width: 245px;
+    height: 35px;
+    padding-left: 25px;
+    line-height: 20px;
+}
+.name:hover{
+    border: 1px solid red;
+}
+.password{
+border: 1px solid #999;
+    width: 272px;
+}
+.password>i.password-ico{
+    width: 18px;
+    height: 18px;
+    background: url("../img/logn.png") no-repeat -1248px -527px;
+    position: absolute;
+    top:10px;
+    left: 5px;
+}
+.password-text{
+    width: 245px;
+    height: 35px;
+    padding-left: 25px;
+    line-height: 20px;
+}
+.password:hover{
+    border: 1px solid red;
+}
+.forget{
+    width: 272px;
+}
+.login-button{
+    width: 272px;
+    height: 35px;
+    background: #e7353a;
+    border-radius: 5px;
+}
+.footer{
+    width: 980px;
+    margin:  0 auto;
+    text-align: center;
+}
+.footer-w{
+    color:#cccccc;
+}
+#acc_span,#pwd_span,#login_span{
+    height: 18px;
+    width: 272px;
+    font-size: 12px;
+    line-height: 18px;
+color: #eb7878;
+    margin: 0;
+text-align: right;
+}

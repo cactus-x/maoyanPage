@@ -1,0 +1,310 @@
+/*banner*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.vary {
+    z-index: 1;
+    height: 440px;
+    width: 100%;
+    margin: auto;}
+
+.banner-img{
+    width: 100%;
+}
+.banner-img>img{
+    width: 100%;
+
+}
+.banner-news{
+    margin: auto;
+    /*margin-top: -377px;*/
+    width: 1040px;
+    background: #fff;
+    position: absolute;
+    top:300px;
+    left:120px;
+    /*border-bottom: 1px solid #999;*/
+    box-shadow: 1px 1px 1px 1px #e1e1e1;
+}
+.banner-news-img{
+    width: 160px;
+}
+.banner-news-up1{
+    width: 55px;
+}
+.banner-news-bg{
+    width: 159px;
+    height: 110px;
+    float: left;
+    border: 3px solid transparent;
+}
+.banner-news-bg:hover{
+    border: 3px solid red;
+
+}
+.banner-news-up{
+    float: left;
+    border: 3px solid transparent;
+}
+.container {
+    width: 100%;
+    min-width: 12px;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+    /*outline: 1px solid red;*/
+    overflow: hidden;
+}
+
+.content-l {
+    width: 777px;
+    /*outline: 1px solid red;*/
+    float: left;
+}
+
+.mess {
+    width: 777px;
+    height: 610px;
+    overflow: hidden;
+}
+.mess-head{
+    width: 100%;
+}
+.mess-head > a {
+
+    text-decoration: none;
+    color: red;
+}
+
+.mess-head > a:first-child {
+    float: left;
+    font-size: 24px;
+}
+
+.mess-head > a:last-child {
+    float: right;
+}
+.mess-head{
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.mess > ul > li {
+    width: 162px;
+    height: 261px;
+    list-style: none;
+    float: left;
+    position: relative;
+    border: 1px solid #efefef;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.messimg {
+    /*clear: left;*/
+
+    top: 20px;
+    left: -100px;
+
+}
+
+.messif3d {
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 5px;
+    padding: 8px 7px;
+    background: #0084ff;
+}
+
+.messname {
+    position: absolute;
+    color: #fff;
+    bottom: 51px;
+    left: 10px;
+}
+
+.messscore {
+    position: absolute;
+    color: #ffaa0f;
+    right:9px;
+    bottom:51px;
+}
+.messshop{
+    position: absolute;
+    color: red;
+    left:65px;
+    bottom:13px;
+}
+
+
+
+
+/*content-r*/
+.content-r{
+    float: right;
+    width: 361px;
+    height: 1500px;
+    /*outline: 1px solid red;*/
+}
+.first{
+    padding-top: 10px;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: url("../img/index-todaty.jpg") no-repeat;
+}
+.first>p{
+    text-indent: 150px;
+    color: red;
+    line-height: 25px;
+}
+.first>p:first-child{
+    font-size: 21px;
+    color: #000;
+}
+.first>img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.todatyone>ul{
+    overflow: hidden;
+}
+.todatyone>ul>li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+}
+.todatytwo{
+     color: red;
+ }
+.todatythree{
+    color: red;
+}
+.left1{
+    float: left;
+    clear: left;
+    font-size: 17px;
+}
+.left2{
+    margin-left: 15px;
+    float: left;
+    font-size: 17px;
+}
+.last{
+    float: right;
+    font-size: 17px;
+    color: red;
+}
+.looklist>li{
+    list-style: none;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.right-two{
+    outline: 1px solid #efefef;
+    overflow: hidden;
+}
+.right-two p{
+    font-size: 14px;
+}
+.right-two>.market01{
+    background: red;
+    width: 18px;
+    text-align: center;
+    padding: 13px 11px;
+    color: #fff;
+float: left;
+}
+.right-two>.market02{
+    float: left;
+}
+.market03{
+    float: right;
+}
+.market03>a{
+    display: inline-block;
+    margin: 30px 0;
+    color: red;
+    text-decoration: none;
+}
+.market04{
+    float: right;
+}
+
+/*最受期待*/
+.expect{
+    padding-top: 75px;
+}
+/*标题01*/
+.expect>.expect01>h2{
+    float: left;
+    color: #ffb400;
+}
+.expect>.expect01>a{
+    margin-top: 10px;
+    float: right;
+    text-decoration: none;
+    color: #ffb400;
+}
+.expect01{
+    overflow: hidden;
+}
+/*期待1*/
+.expect02{
+    margin-top: 23px;
+    outline: 1px solid #efefef;
+    overflow: hidden;
+}
+.expect-bg>img{
+    float: left;
+}
+.expect-bg{
+    position: relative;
+}
+.expect-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.expect02>.expect02-r{
+    vertical-align: middle;
+    float: left;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.expect02>.expect02-r>p{
+text-align: left;
+    line-height: 25px;
+}
+.expect02>.expect02-r>p:nth-child(3){
+    color: #ffb400;
+}
+.expect03{
+    clear: both;
+    padding-top: 25px;
+}
+.expect03-l{
+    float: left;
+}
+.expect03-r{
+    float: right;
+}
+.world>span:nth-of-type(1){
+    color: #ffb400;
+}
+.expect03 .world{
+    margin-left: 10px;
+
+}

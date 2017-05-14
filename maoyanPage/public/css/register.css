@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+    min-width: 980px;
+
+    margin: auto;
+    border-bottom: 2px solid red;
+}
+.head{
+    width: 980px;
+    height: 50px;
+    margin: auto;
+    padding: 8px 0;
+}
+i.login{
+    width: 229px;
+    height: 43px;
+    background: url("../img/logn.png") no-repeat -114px -678px;
+    position: absolute;
+}
+.container{
+    width: 980px;
+    margin: auto;
+    margin-top: 40px;
+}
+.phone{
+    margin-left: 60px;
+}
+.note{
+    margin-top: 10px;
+    margin-left: 113px;
+}
+.phone-cont{
+    margin-top: 10px;
+    margin-left: 29px;
+}
+.note-text{
+    border-radius:2px;
+    background: #f1f1f1;
+}
+.text-w{
+    width: 260px;
+}
+.password{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.password-diff{
+    margin-top: 10px;
+    margin-left: 114px;
+    overflow: hidden;
+}
+.passwordok{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.reg{
+    margin-top: 10px;
+    margin-left: 112px;
+}
+.tre{
+    margin-top: 10px;
+    margin-left: 112px;
+}
+.password-diff01{
+    padding: 0 30px;
+    background: #eeeeee;
+    margin-right: 5px;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid #eeeeee;
+    margin-top: 100px;
+}
+.foot{
+    width: 980px;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+}
+#phone_code_time{
+    font-size: 12px;
+    color: #999;
+}
+#phone_code_test{
+    font-size: 12px;
+    color: #fff;
+    padding: 1px 4px;
+}

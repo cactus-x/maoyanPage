@@ -1,0 +1,35 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.xpzx{
+    width: 1200px;
+}
+a.more{
+    float: right;
+    text-decoration: none;
+}
+.xpzx-l{
+    width: 730px;
+}
+.xpzx-r{
+    width: 358px;
+}
+
+.num>ul>li{
+    width: 230px;
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.num>ul>li:nth-child(3n){
+    margin-right: 0;
+}
+
+.xpzxr-content{
+    width: 350px;
+}
+.xpzxr-content{
+    line-height: 35px;
+}

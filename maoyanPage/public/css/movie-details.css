@@ -1,0 +1,260 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    height: 377px;
+    background: linear-gradient(45deg, #744550, #3b305b);
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    top: 71px;
+    left: 114px;
+    border: 5px solid #fff;
+}
+
+.banner-img-position {
+    position: relative;
+}
+
+.banner-img-position > img {
+    width: 242px;
+}
+
+.d3 {
+    width: 68px;
+    height: 24px;
+    background: url("../img/movie3d.png");
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
+
+.banner-content-r {
+    margin-left: 400px;
+    overflow: hidden;
+}
+
+.banner-content-r1 {
+    margin-top: 72px;
+}
+
+.shop {
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.love {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/love.png");
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+
+.score {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/score.png");
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+
+.lovescore {
+    display: inline-block;
+    margin-top: 10px;
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0;
+    background: #756189;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.yellowscore {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    background: url("../img/yellowscore.png");
+    float: left;
+}
+
+.score-img {
+    float: left;
+    display: inline-block;
+    width: 70px;
+    height: 17px;
+    overflow: hidden;
+}
+
+.whitescore {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    background: url("../img/whitescore.png");
+    float: left;
+}
+
+.banner-content-r2 {
+    margin-top: 166px;
+    margin-left: 92px;
+}
+
+/*内容*/
+.container {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.content-l {
+    width: 730px;
+    float: left;
+}
+
+.content-l-nav > ul > li {
+    list-style: none;
+    float: left;
+    margin-right: 33px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.content-l-nav > ul {
+    border-bottom: 2px solid #eeeeee;
+    overflow: hidden;
+}
+
+.content-l-nav {
+    overflow: hidden;
+}
+
+.content-l-nav > ul > li:hover {
+    border-bottom: 2px solid red;
+}
+
+.plot-img {
+    border-left: 4px solid red;
+}
+
+.pers {
+    margin-top: 45px;
+}
+.pers>ul>li{
+    float: left;
+    list-style:none;
+    text-align: center;
+    margin-right: 20px;
+}
+.pers>ul>li:last-child{
+    margin-right: 0;
+}
+.poto01{
+    width: 463px;
+    height: 260px;
+    margin-right: 8px;
+}
+.potos{
+    width: 258px;
+    height: 260px;
+}
+
+/*热门评价*/
+.evaluate-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+.evaluate-grade{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    background: yellow;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+}
+.evaluate-score>li{
+    list-style: none;
+    float: left;
+}
+.evaluate-score{
+    width: 110px;
+    height: 25px;
+}
+.evaluate-mess-u-l{
+    width: 180px;
+    height: 50px;
+}
+.evaluate-mess{
+    width: 620px;
+}
+.click{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/click.png");
+    position: absolute;
+    right: 35px;
+    top: 2px;
+}
+
+
+/*content-r*/
+.content-r{
+    width: 357px;
+    margin: auto;
+}
+.news1{
+    width: 357px;
+    height: 87px;
+}
+.counts{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/click.png");
+}
+.notes{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/click.png");
+}
+.news-mess{
+    width: 216px;
+    height: 87px;
+}
+.news-img{
+    width: 140px;
+}
+.movies>li{
+    list-style: none;
+    float: left;
+    margin-right: 18px;
+}
+.movies>li:nth-child(3n){
+    margin-right: 0;
+}

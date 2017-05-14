@@ -1,0 +1,32 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.container-l{
+    width: 735px;
+    float: left;
+    margin-top: 30px;
+}
+.container-r{
+    width: 360px;
+    float: right;
+}
+.count{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background: url("../img/count.png");
+}
+.movies>li{
+    list-style: none;
+    float: left;
+    margin-right: 18px;
+}
+.movies>li:nth-child(3n){
+    margin-right: 0;
+}
+.plot-img {
+    border-left: 4px solid red;
+}

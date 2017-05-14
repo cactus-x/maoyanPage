@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="themes/icon.css"/>
+    <link rel="stylesheet" href="themes/default/easyui.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/private.css"/>
+</head>
+<body>
+<div class="header margin-top40px">
+    <a href="index.html"><i></i></a>
+</div>
+<div class="container">
+    <div class="content-l  margin-top40px float-left margin-right120px">
+        <a href="" class="text-deco-none"><img src="img/login-img.png" alt=""/></a>
+    </div>
+    <div class="content-r float-left margin-top86px">
+        <form  name="login_form" id="login_form">
+            <span class="">
+           帐号登录 <a href="" class="float-right position-relative padding-right10px color-000 text-deco-none">手机动态登录<i class="phone"></i></a>
+        </span>
+            <div class="name position-relative margin-top12px">
+                <i class="name-ico"></i>
+                <input type="text" placeholder="手机号/用户名/邮箱" class="color-999 outline-none name-text border-none" name="name" id="acc"/>
+            </div>
+            <p id="acc_span"></p>
+            <div class="password position-relative">
+                <i class="password-ico"></i>
+                <input type="password" placeholder="密码" class="color-999 outline-none password-text border-none" name="password" id="pwd"/>
+            </div>
+            <p id="pwd_span"></p>
+            <span class="forget disply-inlineblock">
+                <input type="checkbox" id="auto"/>
+                <label for="auto">7天内自动登录</label>
+                <a href="" class=" float-right color-red text-deco-none">忘记密码?</a>
+            </span>
+            <p id="login_span"></p>
+            <input type="submit" class="color-fff login-button outline-none border-none cursor-pointer" value="登 陆"/>
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <span class="footer-w font-size12px margin-top86px disply-inlineblock">©2017 美团网团购 meituan.com 京ICP证070791号 京公网安备11010502025545号 电子公告服务规则</span>
+</div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.easyui.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

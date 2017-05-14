@@ -1,0 +1,90 @@
+/*.content-nav{*/
+    /*width: 100%;*/
+    /*min-width: 1200px;*/
+    /*background: #000;*/
+/*}*/
+/*.content-navs{*/
+    /*width: 1200px;*/
+    /*margin: auto;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.content-navs>ul>li{*/
+    /*float: left;*/
+    /*list-style: none;*/
+    /*width: 160px;*/
+    /*text-align: center;*/
+/*}*/
+/*.content-navs>ul>li:hover a{*/
+    /*color: #fff;*/
+/*}*/
+/*.content-navs>ul>li>a{*/
+    /*color: #999999;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+/*}*/
+/*.content-navs>ul{*/
+    /*width: 800px;*/
+    /*margin: auto;*/
+    /*overflow: hidden;*/
+/*}*/
+.container{
+    margin: auto;
+    margin-top: 70px;
+    width: 950px;
+    text-align: center;
+}
+.container>p{
+    line-height: 25px;
+}
+.container>p>span{
+    color: #ffb400;
+}
+.content li.mess{
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.mess-i{
+    display: inline-block;
+    position: absolute;
+    top:65px;
+    left: 0;
+
+}
+.mess-img{
+    float: left;
+    position: absolute;
+    left: 80px;
+}
+.messs{
+    width: 685px;
+    height: 205px;
+    float: right;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 15px;
+}
+.messs>.messs-l{
+    float: left;
+    text-align: left;
+}
+.messs-l>.messstime{
+    color: #999999;
+}
+.messs>.messs-r{
+    float: right;
+    color: #ffb400;
+    font-style: italic;
+    padding-right: 15px;
+}
+.messs>.messs-r>.sup{
+    font-size: 50px;
+    font-weight: 900;
+}
+.messs>.messs-r>.sub{
+    font-size: 30px;
+    font-weight: 900;
+}
